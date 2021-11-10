@@ -1,0 +1,198 @@
+<html>
+	<style>
+.alignLeft {
+	margin-left: 5px;
+	color: white;
+	justify-content: left;
+	text-align: left;
+	align-items: left;
+}
+.imageFooter {
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+.imageFooter img {
+	border: 5px solid black;
+}
+.TopItem {
+	padding-left: 50px;
+	padding-right: 50px;
+	text-decoration: none;
+	color: black;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	min-width: fit-content;
+	padding: 0 0 30px;
+	text-align: center;
+}
+#headerContent {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+	font-size: 18;
+	text-transform: uppercase;
+}
+#header {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: fit-content;
+	font-size: auto;
+}
+.TopItem:hover {
+	color:rgb(23, 177, 169)
+}
+#footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: fit-content;
+	margin-left: -25px;
+	width: inherit;
+}
+#selected {
+	color: rgb(7, 117, 112)
+}
+.centered {
+	color: white;
+	display: block;
+	width: fit-content;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: black;
+}
+#moreInfo {
+	background-color: rgb(23, 177, 169);
+	color: white;
+	border: none;
+	height: fit-content;
+	width: inherit;
+	padding: 20px;
+	font-size: auto;
+}
+#about {
+	justify-content: center;
+	align-items: center;
+	display: block;
+	background-image: url("images/the-beacon.jpg");
+	background-size:auto;
+	background-position:center;
+	background-repeat: no-repeat;
+	font-size: auto;
+	text-align: left;
+	width: inherit;
+	padding-top: 50px;
+	padding-left: 45%;
+	height: 550;
+}
+h2 {
+	font-size: auto;
+	color: black;
+	background-color: white;
+	height: 40px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: fit-content;
+	padding-right: 20px;
+}
+#footerLinks {
+	width: inherit;
+	margin-top: 50px;
+	height: fit-content;
+	align-items: right;
+	justify-content: right;
+	text-align: right;
+	background-color: rgb(68, 68, 68);
+
+}
+.logo {
+	bottom: 40px;
+	right: 10px;
+	position: relative;
+	display:inline
+}
+	</style>
+<head>
+	<title>Mustacchio</title> 
+</head>
+<body>
+	<div id="header">
+		
+		<a href="index.html">
+			<img src="images/logo.jpg" alt="">
+		</a>
+		</div>
+		<div id="headerContent">
+					<a class="TopItem" id="selected" href="index.html"><strong>home</strong></a>
+					<a class="TopItem" href="about.html"><strong>about</strong></a>
+					<a class="TopItem" href="gallery.html"><strong>gallery</strong></a>
+					<a class="TopItem" href="blog.html"><strong>blog</strong></a>
+					<a class="TopItem" href="contact.html"><strong>contact</strong></a>
+		</div>
+
+		<div id="about">
+			<h2 class="">the beacon to all mankind</h2>
+			<br>
+			<p1 class="Centered">Our website templates are created with</p1>
+			<br>
+			<p1 class="Centered">inspiration, checked for quality and originality</p1>
+			<br>
+			<p1 class="Centered">and meticulously sliced and coded.</p1>
+			<br>
+			<a class="" href="blog.html"><button id="moreInfo">READ MORE</button></a>
+		</div>
+
+		<div id="Footer">
+			<a class="imageFooter" href="gallery.html">
+					<img src="images/the-father.jpg" alt="">
+					<br>
+					<br>
+					<p class="fontChanged">THE FATHER</p>
+			</a>
+			<a class="imageFooter" href="gallery.html">
+					<img src="images/the-actor.jpg" alt="">
+					<br>
+					<br>
+					<p class="fontChanged">THE ACTOR</p>
+			</a>
+			<a class="imageFooter" href="gallery.html">
+					<img src="images/the-nerd.jpg" alt="">
+					<br>
+					<br>
+					<p class="fontChanged">THE NERD</p>
+			</a>
+		</div>
+
+	<div id="footerLinks">
+		<p class="alignLeft"><br><br>&copy; 2023 by Mustacchio. All rights reserved.</p>
+		<a class="logo" href="https://www.twitter.com">
+			<img src="images/icons/icon-twitter.jpg">
+		</a>
+		<a href="http://www.facebook.com" class="logo" class=>
+			<img src="images/icons/icon-facebook.jpg">
+		</a>
+		<a href="http://www.google.com" class="logo">
+			<img src="images/icons/icon-googleplus.jpg">
+		</a>
+		<a href="http://www.pinterest.com" class="logo">
+			<img src="images/icons/icon-pinterest.jpg">
+		</a>
+	</div>
+	</body>
+</html>
